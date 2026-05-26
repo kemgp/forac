@@ -1,0 +1,38 @@
+:root {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #355f97;
+  background:
+    radial-gradient(circle at 12% 12%, rgba(255, 192, 226, 0.5), transparent 33%),
+    radial-gradient(circle at 28% 70%, rgba(255, 220, 239, 0.32), transparent 34%),
+    radial-gradient(circle at 88% 86%, rgba(160, 205, 255, 0.42), transparent 36%),
+    linear-gradient(100deg, #fff3fb 0%, #eef6ff 58%, #dbe9ff 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background-attachment: fixed;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}

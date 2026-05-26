@@ -11,7 +11,7 @@ const timeSlots = [
   '6:00 PM',
   '7:30 PM',
   '9:00 PM',
-  'Actually maski ano oras okay sakon :D',
+  'Actually maski ano oras okay sakon :D, pwede ko ka adjust -kit',
 ]
 
 const activityOptions = [

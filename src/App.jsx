@@ -129,12 +129,12 @@ function App() {
               onMouseEnter={(e) => {
                 const button = e.currentTarget
 
-                const x = Math.random() * 600 - 300
-                const y = Math.random() * 300 - 150
+                const x = Math.random() * 300 - 150
+                const y = Math.random() * 200 - 100
 
                 button.style.transform = `translate(${x}px, ${y}px)`
               }}
-              onClick={() => setStep('schedule')}
+              onClick={() => {}}
             >
               Naur
             </button>
